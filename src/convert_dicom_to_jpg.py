@@ -1,7 +1,7 @@
 import dicomsdl
 import numpy as np
 from PIL import Image
-from utils.apply_voilut_v1 import DicomsdlMetadata, ApplyWindowing
+from utils.apply_voilut import DicomsdlMetadata, ApplyWindowing
 
 
 def convert_dcm_to_img(dcm_path:str) -> np.array:
